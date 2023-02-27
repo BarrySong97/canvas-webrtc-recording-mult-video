@@ -1,0 +1,79 @@
+.app {
+  display: flex;
+}
+.mid {
+  flex: 3;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftTeam {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  background-color: blue;
+}
+
+.teamPickItem {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid;
+  height: 20vh;
+  background-color: teal;
+}
+.rightTeam {
+  flex: 1;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+.chapionPickItem {
+  background-color: bisque;
+}
+.teamPlayerInfo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.gameInfo {
+  background-color: red;
+  display: flex;
+}
+
+.leftTeamInfo {
+  margin-right: 32px;
+  flex: 1;
+}
+
+.leftTeamName {
+  text-align: right;
+}
+.leftTeamScore {
+  text-align: right;
+}
+.rightTeamInfo {
+  margin-left: 32px;
+  flex: 1;
+}
+.leftTeamBp {
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+}
+.rightTeamBp {
+  display: flex;
+  text-align: end;
+}
+
+.matchInfo {
+  flex: 3;
+}
+
+.countdown {
+  text-align: center;
+}
